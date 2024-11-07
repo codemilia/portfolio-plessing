@@ -1,0 +1,67 @@
+.header {
+  background: url(../images/BG-header.png) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header .contact-btn:hover .fa-satellite-dish {
+  color: white !important;
+}
+
+.header .contact-btn:hover .fa-circle {
+  color: #030213 !important;
+}
+
+.header .contact-btn:hover {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 15px #fff, 0 0 21px #fff;
+}
+
+.body {
+  color: #030213;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #030213;
+  border-color: #030213;
+}
+
+h2 a:hover {
+  color: #777683 !important;
+}
+
+.btn-outline-secondary:hover {
+  color: #030213 !important;
+}
+
+.sneak-peek {
+  width: 70%;
+  height: 450px;
+  overflow-y: scroll;
+}
+
+/* Safari and Opera */
+.sneak-peek::-webkit-scrollbar {
+  display: none;
+}
+
+/* IE, Edge and Firefox */
+.sneak-peek {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+  .header-container .img-container {
+    padding: 0 !important;
+    padding-top: 120px !important;
+    padding-bottom: 50px !important;
+  }
+  .header {
+    text-align: center !important;
+  }
+  .contact-btn {
+    left: 0 !important;
+  }
+}

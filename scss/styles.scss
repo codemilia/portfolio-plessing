@@ -1,0 +1,82 @@
+$primary: #030213;
+$secondary: #ffff;
+
+.header {
+    background: url(../images/BG-header.png) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header .contact-btn:hover .fa-satellite-dish {
+    color: white !important;
+}
+
+.header .contact-btn:hover .fa-circle {
+    color: $primary !important;
+}
+
+.header .contact-btn:hover {
+    color: #ffff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 15px #fff,
+    0 0 21px #fff,
+    // 0 0 42px #ffa,
+   /*  0 0 82px #ffa,
+    0 0 92px #ffa,
+    0 0 102px #ffa,
+    0 0 151px #ffa; */
+}
+
+.body {
+    color: $primary;
+}
+
+.btn-primary:hover {
+    background-color: $secondary;
+    color: $primary;
+    border-color: $primary;
+}
+
+h2 a:hover {
+    color: #777683 !important;
+}
+
+.btn-outline-secondary:hover {
+    color: $primary !important;
+}
+
+.sneak-peek {
+    width: 70%;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+/* Safari and Opera */
+.sneak-peek::-webkit-scrollbar {
+    display: none;
+}
+
+/* IE, Edge and Firefox */
+.sneak-peek {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+
+@media(max-width: 768px) {
+    .header-container .img-container {
+        padding: 0 !important;
+        padding-top: 120px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .header {
+        text-align: center !important;
+    }
+
+    .contact-btn {
+        left: 0 !important;
+    }
+}
